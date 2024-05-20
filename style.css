@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #353839;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  margin: 2rem;
+  padding: 2rem;
+  max-width: 740px;
+  width: 100%;
+  min-height: 40vh;
+  /* background-color: #8567b5; */
+  background-color: #f2a341;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.app {
+  padding: 2rem;
+}
+
+select,
+button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  outline: none;
+  border: 10px solid #fff;
+  background-color: white;
+  color: #f2a341;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
+}
+
+button {
+  padding: 0.5rem 1rem;
+}
