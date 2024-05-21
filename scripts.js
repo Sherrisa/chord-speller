@@ -42,6 +42,7 @@ function showNotes(result) {
 
   // display the notes on the page
   const showNotes = document.getElementById("showNotes");
+  showNotes.innerHTML = "";
   const para = document.createElement("p");
   para.textContent = result.notes.join(" - ");
   showNotes.appendChild(para);
