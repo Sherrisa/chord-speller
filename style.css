@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: #222222;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -19,8 +19,7 @@ body {
   max-width: 740px;
   width: 100%;
   min-height: 40vh;
-  /* background-color: #8567b5; */
-  background-color: #f2a341;
+  background-color: #8567b5;
   color: white;
   font-weight: 700;
   text-align: center;
@@ -37,7 +36,7 @@ button {
   outline: none;
   border: 10px solid #fff;
   background-color: white;
-  color: #f2a341;
+  color: #8567b5;
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
   font-weight: 700;
